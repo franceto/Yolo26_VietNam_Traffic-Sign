@@ -1,0 +1,20 @@
+# Core
+ultralytics==8.4.5
+torch==2.9.1+cu126
+torchvision==0.24.1+cu126
+torchaudio==2.9.1+cu126
+
+# App (Streamlit)
+streamlit==1.53.0
+opencv-python==4.12.0.88
+pillow==12.0.0
+
+# Data / Utils (tuỳ dùng)
+PyYAML==6.0.3
+numpy==2.3.5
+pandas==2.3.3
+matplotlib==3.10.8
+seaborn==0.13.2
+tqdm==4.67.1
+roboflow==1.2.12
+python-dotenv==1.2.1
