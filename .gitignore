@@ -31,3 +31,4 @@ kaggle.json
 roboflow.json
 .env
 .env.*
+*.pt
