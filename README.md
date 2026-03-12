@@ -139,9 +139,9 @@ python -m pip install -U pip
 
 ### 7.2 Cài PyTorch (CUDA) / Cài thư viện cho dự án
 
-pip install --upgrade --force-reinstall torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-pip install ultralytics roboflow opencv-python streamlit pandas matplotlib seaborn pyyaml
-pip install -r requirements.txt
+- pip install --upgrade --force-reinstall torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+- pip install ultralytics roboflow opencv-python streamlit pandas matplotlib seaborn pyyaml
+- pip install -r requirements.txt
 
 ## 8) Run app
 
