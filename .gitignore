@@ -32,3 +32,4 @@ roboflow.json
 .env
 .env.*
 *.pt
+*.docx
