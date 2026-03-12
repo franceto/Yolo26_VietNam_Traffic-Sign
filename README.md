@@ -118,29 +118,9 @@ Ví dụ metrics (val) từ lần train YOLO26n:
 
 ---
 
-## 6) Cấu trúc project (gợi ý)
+## 6) Không công khai trọng số model
 
-Ví dụ cấu trúc tối giản:
-Yolo26_VN_Traffic-Sign/
-├─ app.py
-├─ README.md
-├─ notebooks/
-│ ├─ train_yolo26.ipynb
-│ └─ ...
-├─ datasets/
-│ └─ (optional: nếu bạn tải bằng Roboflow)
-├─ runs/
-│ ├─ vietnam_traffic_y26n_w0/
-│ │ └─ weights/
-│ │ ├─ best.pt
-│ │ └─ last.pt
-│ └─ ...
-└─ tmp/ # file upload tạm (streamlit)
-
-> Khuyến nghị: Không push toàn bộ dataset lên GitHub nếu quá nặng.  
-> Có thể chỉ push code + README + requirements + hướng dẫn download dataset.
-
----
+Bạn phải tự huấn luyện mô hình lại bằng notebook có sẵn để lấy trọng số
 
 ## 7) Cài môi trường (Windows / VSCode)
 
