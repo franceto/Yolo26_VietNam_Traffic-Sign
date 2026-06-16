@@ -42,7 +42,6 @@ Dự án tập trung vào bài toán **Object Detection**, trả về **bounding
 
 </div>
 
-> Nếu chưa có ảnh demo, hãy đặt ảnh kết quả detect vào `assets/demo_result.png` hoặc sửa lại đường dẫn ảnh tương ứng.
 
 ---
 
